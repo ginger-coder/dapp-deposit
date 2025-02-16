@@ -1,0 +1,49 @@
+{
+    "name": "dapp-deposit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "client:dev": "scripty",
+        "client:prod": "scripty"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@soda/friendly-errors-webpack-plugin": "^1.8.1",
+        "@swc/core": "^1.10.16",
+        "@tailwindcss/postcss": "^4.0.6",
+        "@types/jest": "^29.5.14",
+        "@types/react": "^19.0.8",
+        "@types/react-dom": "^19.0.3",
+        "clean-webpack-plugin": "^4.0.0",
+        "css-loader": "^7.1.2",
+        "dotenv": "^16.4.7",
+        "dotenv-webpack": "^8.1.0",
+        "html-webpack-plugin": "^5.6.3",
+        "ip": "^2.0.1",
+        "jest": "^29.7.0",
+        "mini-css-extract-plugin": "^2.9.2",
+        "node-notifier": "^10.0.1",
+        "postcss": "^8.5.2",
+        "postcss-loader": "^8.1.1",
+        "scripty": "^2.1.1",
+        "style-loader": "^4.0.0",
+        "swc-loader": "^0.2.6",
+        "tailwindcss": "^4.0.6",
+        "themed-progress-plugin": "^1.0.1",
+        "webpack": "^5.98.0",
+        "webpack-bundle-analyzer": "^4.10.2",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.0",
+        "yargs-parser": "^21.1.1"
+    },
+    "dependencies": {
+        "ethers": "^6.13.5",
+        "lucide-react": "^0.475.0",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-router-dom": "^7.1.5"
+    }
+}

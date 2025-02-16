@@ -11,7 +11,7 @@ const mainRoutes = {
   element: <Layout />,
   children: [
     { path: '*', element: <PageNotFoundView /> },
-    { path: 'home', element: <Home /> },
+    { path: 'dapp', element: <Home /> },
     { path: '404', element: <PageNotFoundView /> },
   ],
 };

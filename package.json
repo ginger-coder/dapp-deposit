@@ -40,10 +40,14 @@
         "yargs-parser": "^21.1.1"
     },
     "dependencies": {
-        "ethers": "^6.13.5",
+        "@tanstack/react-query": "^5.66.3",
+        "connectkit": "^1.8.2",
+        "ethers": "^5.7.2",
         "lucide-react": "^0.475.0",
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0",
-        "react-router-dom": "^7.1.5"
+        "react": "18",
+        "react-dom": "18",
+        "react-router-dom": "^7.1.5",
+        "viem": "~2.23.2",
+        "wagmi": "^2.14.11"
     }
 }
